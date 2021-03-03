@@ -31,13 +31,10 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
 
 # 日常算法训练
 
-![双指针](https://labuladong.gitbook.io/algo/shu-ju-jie-gou-xi-lie/shou-ba-shou-shua-shu-zu-ti-mu/shuang-zhi-zhen-ji-qiao)
-
----
-
-![19.删除链表倒数第 N 个元素（中等）](problems/p_00019_remove_nth_from_end)
-![141.环形链表（简单）](problems/p_00141_has_cycle)
-![167.两数之和 II - 输入有序数组（中等）](problems/p_00167_two_sum)
-![344.反转字符串（简单）](problems/p_00344_reverse_string)
+- [双指针](https://labuladong.gitbook.io/algo/shu-ju-jie-gou-xi-lie/shou-ba-shou-shua-shu-zu-ti-mu/shuang-zhi-zhen-ji-qiao)
+  - [19.删除链表倒数第 N 个元素（中等）](problems/p_00019_remove_nth_from_end)
+  - [141.环形链表（简单）](problems/p_00141_has_cycle)
+  - [167.两数之和 II - 输入有序数组（中等）](problems/p_00167_two_sum)
+  - [344.反转字符串（简单）](problems/p_00344_reverse_string)
 
 
