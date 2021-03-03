@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [[ $# != 2 ]] ; then
+echo "USAGE: $0 number title "
+echo " e.g.: $0 4 findMedianSortedArrays"
+exit 1;
+fi
+
+number=$(printf "%05d\n" ${1})
+title=$(echo "${2}" | sed -E 's/([A-Z])/_\1/g' | sed -E 's/^_//g' | tr 'A-Z' 'a-z')
+
+dir=p_"$number"_"$title"
+file1="$title".go
+file2="$title"_test.go
+
+mkdir -p problems/$dir
+touch problems/$dir/$file1
+touch problems/$dir/$file2
+
+echo "package $dir" >> problems/$dir/$file1
+echo "package $dir" >> problems/$dir/$file2
