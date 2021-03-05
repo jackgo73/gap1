@@ -42,8 +42,10 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
     - [34. 在排序数组中查找元素的第一个和最后一个位置](problems/p_00034_search_range)
     - [704. 二分查找](problems/p_00704_binary_search)
   - [x] [二叉树第一期](https://labuladong.gitbook.io/algo/bi-du-wen-zhang/er-cha-shu-xi-lie-1)
-    -  [114.二叉树展开为链表（中等）](problems/p_00114_flatten)
-    -  [226.翻转二叉树（简单）](problems/p_00226_invert_tree)
+    - [114.二叉树展开为链表（中等）](problems/p_00114_flatten)
+    - [226.翻转二叉树（简单）](problems/p_00226_invert_tree)
+    - （重点）[144. 二叉树的前序遍历（中等）](problems/p_00144_preorder_traversal)
+    - （重点）[145. 二叉树的后序遍历（中等）](problems/p_00145_postorder_traversal)
 
 - 第一章 数组
   - [ ] 如何运用二分查找算法
