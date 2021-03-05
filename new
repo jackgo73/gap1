@@ -13,7 +13,14 @@ dir=p_"$number"_"$title"
 file1="$title".go
 file2="$title"_test.go
 
-mkdir -p problems/$dir
+if [ ! -d problems/$dir ]; then
+  mkdir -p problems/$dir
+else
+  echo "problems/$dir" already existed.
+  exit 1
+fi
+
+
 touch problems/$dir/$file1
 touch problems/$dir/$file2
 
