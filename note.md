@@ -46,6 +46,8 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
     - [226.翻转二叉树（简单）](problems/p_00226_invert_tree)
     - （重点）[144. 二叉树的前序遍历（中等）](problems/p_00144_preorder_traversal)
     - （重点）[145. 二叉树的后序遍历（中等）](problems/p_00145_postorder_traversal)
+  
+
 
 - 第一章 数组
   - [ ] 如何运用二分查找算法
@@ -73,11 +75,12 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
     - 
 
 - 高频
-  - [ ] [如何寻找最长回文子串](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/zui-chang-hui-wen-zi-chuan)
+  - [x] [如何寻找最长回文子串](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/zui-chang-hui-wen-zi-chuan)
     - [5.最长回文子串（中等）](problems/p_00005_longest_palindrome)
-  - [ ] [如何判定括号合法性](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/he-fa-kuo-hao-pan-ding)
+  - [x] [如何判定括号合法性](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/he-fa-kuo-hao-pan-ding)
     - [20.有效的括号（简单）](problems/p_00020_is_valid)
-
+  - [x] [二分查找高效判定子序列](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/er-fen-cha-zhao-pan-ding-zi-xu-lie)
+    - [392. 判断子序列（简单）](problems/p_00392_is_subsequence)
 # 知识点
 
 数据类型？
