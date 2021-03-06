@@ -46,7 +46,8 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
     - [226.翻转二叉树（简单）](problems/p_00226_invert_tree)
     - （重点）[144. 二叉树的前序遍历（中等）](problems/p_00144_preorder_traversal)
     - （重点）[145. 二叉树的后序遍历（中等）](problems/p_00145_postorder_traversal)
-  
+  - [ ] [滑动窗口](https://labuladong.gitbook.io/algo/bi-du-wen-zhang/hua-dong-chuang-kou-ji-qiao-jin-jie)
+    - []()
 
 
 - 第一章 数组
@@ -81,6 +82,16 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
     - [20.有效的括号（简单）](problems/p_00020_is_valid)
   - [x] [二分查找高效判定子序列](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/er-fen-cha-zhao-pan-ding-zi-xu-lie)
     - [392. 判断子序列（简单）](problems/p_00392_is_subsequence)
+
+
+- 其他
+  - [ ] [206. 反转链表（简单）](problems/p_00206_reverse_list)
+  - [ ] [102. 二叉树的层序遍历（中等）](problems/)
+  - [ ] [n个数中取m个数，要求每个数取出的概率相等]
+  - [ ] [无序数组中求第k大的数]
+
+
+
 # 知识点
 
 数据类型？
