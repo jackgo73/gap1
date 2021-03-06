@@ -72,6 +72,12 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
   - [ ] [二叉树第二期](https://labuladong.gitbook.io/algo/shu-ju-jie-gou-xi-lie/shou-ba-shou-shua-er-cha-shu-xun-lian-di-gui-si-wei/er-cha-shu-xi-lie-2)
     - 
 
+- 高频
+  - [ ] [如何寻找最长回文子串](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/zui-chang-hui-wen-zi-chuan)
+    - [5.最长回文子串（中等）](problems/p_00005_longest_palindrome)
+  - [ ] [如何判定括号合法性](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/he-fa-kuo-hao-pan-ding)
+    - [20.有效的括号（简单）](problems/p_00020_is_valid)
+
 # 知识点
 
 数据类型？
