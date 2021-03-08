@@ -86,7 +86,7 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
 
 - 其他
   - [ ] [206. 反转链表（简单）](problems/p_00206_reverse_list)
-  - [ ] [102. 二叉树的层序遍历（中等）](problems/)
+  - [ ] [102. 二叉树的层序遍历（中等）](problems/p_00102_level_order)
   - [ ] [n个数中取m个数，要求每个数取出的概率相等]
   - [ ] [无序数组中求第k大的数]
 
