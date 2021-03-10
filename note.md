@@ -74,6 +74,9 @@ ok      github.com/mjoker73/gap/problems/p_00001_two_sum        3.814s
     - [226.翻转二叉树（简单）](problems/p_00226_invert_tree)
   - [ ] [二叉树第二期](https://labuladong.gitbook.io/algo/shu-ju-jie-gou-xi-lie/shou-ba-shou-shua-er-cha-shu-xun-lian-di-gui-si-wei/er-cha-shu-xi-lie-2)
     - 
+    
+- 第三章 算法技巧
+  - [x] [快速选择算法]
 
 - 高频
   - [x] [如何寻找最长回文子串](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/zui-chang-hui-wen-zi-chuan)
@@ -123,3 +126,12 @@ https://labuladong.gitbook.io/algo/bi-du-wen-zhang/er-cha-shu-xi-lie-1
 中序遍历：左子树---> 根结点 ---> 右子树
 后序遍历：左子树 ---> 右子树 ---> 根结点
 广度优先遍历层次遍历：只需按层次遍历即可
+
+
+
+
+==================
+fengxiao计算平台
+string是如何做内存管理的？为啥这个能比std::string快？如果string间的赋值操作是怎么做的？直接new一个新的char*？如果修改string怎么办
+leveldb好好了解下
+LSM好好了解下
