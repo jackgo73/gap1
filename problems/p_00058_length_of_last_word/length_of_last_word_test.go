@@ -1,0 +1,1 @@
+package p_00058_length_of_last_word
