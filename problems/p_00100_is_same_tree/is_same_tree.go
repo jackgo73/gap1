@@ -35,6 +35,7 @@ type TreeNode struct {
 }
 
 func isSameTree(p *TreeNode, q *TreeNode) bool {
+
 	// end
 	if p == nil && q == nil {
 		return true

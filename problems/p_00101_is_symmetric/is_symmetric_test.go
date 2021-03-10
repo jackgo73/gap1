@@ -1,0 +1,1 @@
+package p_00101_is_symmetric
