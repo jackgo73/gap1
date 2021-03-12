@@ -21,3 +21,16 @@ func twoSumS2(nums []int, target int) []int {
 	}
 	return nil
 }
+
+func twoSumS3(nums []int, target int) []int {
+	hashTable := map[int]int{}
+	for i := 0; i < len(nums); i++ {
+		need := target - nums[i]
+		if _, ok := hashTable[need]; ok {
+			return []int{hashTable[need], i}
+		} else {
+			hashTable[nums[i]] = i
+		}
+	}
+	return nil
+}

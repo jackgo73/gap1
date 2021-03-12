@@ -21,3 +21,21 @@ func maxSubArray(nums []int) int {
 	}
 	return max
 }
+
+
+func maxSubArray1(nums []int) int {
+	sum := 0
+	max := -1<<63
+
+	for _, n := range nums {
+		if sum < 0 {
+			sum = n
+		} else {
+			sum += n
+		}
+		if sum > max {
+			max = sum
+		}
+	}
+	return max
+}
