@@ -3,11 +3,15 @@
 重点温习手写失败leetcode
 4,5,53,56
 简单：26
-146(lru)
+146（LRU）
+141（链表环）
 
 重点问题手写成功
 21
-
+144前序遍历preorderTraversal
+94中序遍历inorderTraversal
+145后序遍历postorderTraversal
+704二分查找
 
 
 topk
