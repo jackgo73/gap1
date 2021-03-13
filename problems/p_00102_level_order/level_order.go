@@ -12,7 +12,7 @@ type TreeNode struct {
 //   /  \
 //  15   7
 
-func levelOrder(root *TreeNode) [][]int {
+func levelOrder2(root *TreeNode) [][]int {
 	ret := [][]int{}
 	if root == nil {
 		return ret
@@ -34,4 +34,36 @@ func levelOrder(root *TreeNode) [][]int {
 		curLevel = nextLevel
 	}
 	return ret
+}
+
+
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func levelOrder(root *TreeNode) [][]int {
+	res := [][]int{}
+	currLevel := []*TreeNode{root}
+	nextLevel := []*TreeNode{}
+
+	for len(currLevel) != 0 {
+		currLevelVal := []int{}
+		for i := 0; i < len(currLevel); i++ {
+			node := currLevel[i]
+			currLevelVal = append(currLevelVal, node.Val)
+			if node.Left != nil {
+				nextLevel = append(nextLevel, node.Left)
+			}
+			if node.Right != nil {
+				nextLevel = append(nextLevel, node.Right)
+			}
+		}
+		res = append(res, currLevelVal)
+		currLevel = nextLevel
+	}
+	return res
 }
