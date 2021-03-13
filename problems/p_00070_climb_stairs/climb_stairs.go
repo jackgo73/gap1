@@ -10,12 +10,21 @@ package p_00070_climb_stairs
 // f(4) = 5
 
 func climbStairs(n int) int {
-	trans := make([]int, n + 1, n + 1)
+	trans := make([]int, n+1, n+1)
 	trans[0], trans[1] = 1, 1
 
-	for i := 2; i < n + 1; i++ {
-		trans[i] = trans[i - 1] + trans[i - 2]
+	for i := 2; i < n+1; i++ {
+		trans[i] = trans[i-1] + trans[i-2]
 	}
 
+	return trans[n]
+}
+func climbStairs1(n int) int {
+	trans := make([]int, n+1)
+	trans[0] = 1
+	trans[1] = 1
+	for i := 2; i < n+1; i++ {
+		trans[i] = trans[i-1] + trans[i-2]
+	}
 	return trans[n]
 }
