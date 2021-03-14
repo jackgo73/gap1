@@ -11,6 +11,7 @@ func Test_lengthOfLongestSubstring(t *testing.T) {
 		args args
 		want int
 	}{
+		{"case0", args{s: "abcdbacbb"}, 3},
 		{"case1", args{s: "abcabcbb"}, 3},
 		{"case2", args{s: "bbbbb"}, 1},
 		{"case3", args{s: "pwwkew"}, 3},

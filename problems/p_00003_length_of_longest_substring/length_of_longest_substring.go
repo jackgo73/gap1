@@ -55,3 +55,38 @@ func maxInt(x, y int) int {
 //	return max + 1
 //}
 
+func lengthOfLongestSubstring1(s string) int {
+	left, right, max := 0, 0, 0
+	charMap := map[byte]int{}
+
+	for right < len(s) {
+		ch := s[right]
+		right++
+		charMap[ch]++
+		// if _, ok := charMap[ch]; !ok {
+		//     charMap[ch] = 1
+		// } else {
+		//     charMap[ch]++
+		// }
+
+		// 见到重复的要一直往前，直到把重复的消耗掉
+		// abcdb 前进两次
+		for charMap[ch] > 1 {
+			leftChar := s[left]
+			left++
+			charMap[leftChar]--
+		}
+		if d := right - left; d > max {
+			max = d
+		}
+	}
+	return max
+}
+
+
+func maxInt(x, y int) int {
+	if x > y {
+		return x
+	}
+	return y
+}
