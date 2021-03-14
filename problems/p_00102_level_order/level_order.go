@@ -1,5 +1,7 @@
 package p_00102_level_order
 
+import "fmt"
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -12,7 +14,7 @@ type TreeNode struct {
 //   /  \
 //  15   7
 
-func levelOrder2(root *TreeNode) [][]int {
+func levelOrder1(root *TreeNode) [][]int {
 	ret := [][]int{}
 	if root == nil {
 		return ret
@@ -46,15 +48,25 @@ func levelOrder2(root *TreeNode) [][]int {
  * }
  */
 func levelOrder(root *TreeNode) [][]int {
+
+	s := []int{1,2,3,4,5,6}
+	fmt.Println(s[0:2])
+	fmt.Println(s[1:2])
+	fmt.Println(s[:6])
+	fmt.Println(s[1:])
+
+
 	res := [][]int{}
 	currLevel := []*TreeNode{root}
-	nextLevel := []*TreeNode{}
+
 
 	for len(currLevel) != 0 {
 		currLevelVal := []int{}
+		nextLevel := []*TreeNode{}
 		for i := 0; i < len(currLevel); i++ {
 			node := currLevel[i]
 			currLevelVal = append(currLevelVal, node.Val)
+
 			if node.Left != nil {
 				nextLevel = append(nextLevel, node.Left)
 			}
