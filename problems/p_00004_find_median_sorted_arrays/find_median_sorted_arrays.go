@@ -1,5 +1,7 @@
 package p_00004_find_median_sorted_arrays
 
+import "sort"
+
 func findMedianSortedArrays__n__mj(nums1 []int, nums2 []int) float64 {
 	l1 := len(nums1)
 	l2 := len(nums2)
@@ -21,5 +23,17 @@ func findMedianSortedArrays__n__mj(nums1 []int, nums2 []int) float64 {
 		return float64(left+right) / 2.0
 	} else {
 		return float64(right)
+	}
+}
+
+func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
+	nums1 = append(nums1, nums2...)
+	sort.Slice(nums1, func(a,b int) bool {
+		return nums1[a] < nums1[b]
+	})
+	if l := len(nums1); l%2 == 1 {
+		return float64(nums1[l/2])
+	} else {
+		return float64(nums1[l/2] + nums1[l/2-1])/2
 	}
 }

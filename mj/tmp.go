@@ -18,6 +18,20 @@ func test() bool {
 	k := sss(a,b)
 	fmt.Println("k")
 	fmt.Println(k)
+
+	d := []int{1,2,3,4,5}
+	f := []int{7,8,9,10}
+	g := []int{}
+	g = append(g, d...)
+	g = append(g, f...)
+	fmt.Println("f")
+	f = append(f, d...)
+	fmt.Println(f)
+	fmt.Println("g")
+	fmt.Println(g)
+
+
+
 	return true
 }
 

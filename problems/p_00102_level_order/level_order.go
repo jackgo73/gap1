@@ -79,3 +79,33 @@ func levelOrder(root *TreeNode) [][]int {
 	}
 	return res
 }
+
+
+func levelOrder2(root *TreeNode) [][]int {
+	res := [][]int{}
+	if root == nil {
+		return res
+	}
+	currLevel := []*TreeNode{root}
+	// level
+	for len(currLevel) > 0 {
+		// level inside
+		nextLevel := []*TreeNode{}
+		currVals := []int{}
+		for i := 0; i < len(currLevel); i++ {
+			node := currLevel[i]
+			currVals = append(currVals, node.Val)
+
+			// fill next level
+			if node.Left != nil {
+				nextLevel = append(nextLevel, node.Left)
+			}
+			if node.Right != nil {
+				nextLevel = append(nextLevel, node.Right)
+			}
+		}
+		res = append(res, currVals)
+		currLevel = nextLevel
+	}
+	return res
+}

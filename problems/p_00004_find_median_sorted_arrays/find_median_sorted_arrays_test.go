@@ -27,4 +27,8 @@ func Test__findMedianSortedArrays__n__mj(t *testing.T) {
 	// 1 3 4 5 7 10 11 15 18
 	res = findMedianSortedArrays__n__mj([]int{1, 3, 5, 7, 10, 18}, []int{4, 11, 15})
 	require.Equal(t, res, 7.0)
+
+	// 1 3 4 5 7 10 11 15 18
+	res = findMedianSortedArrays([]int{1, 3}, []int{2})
+	require.Equal(t, res, 7.0)
 }

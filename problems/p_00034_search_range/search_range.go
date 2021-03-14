@@ -21,6 +21,7 @@ func binary_search(nums []int, target int) int {
 	return -1
 }
 
+// [5,7,7,8,8,8,10]
 func left_bound(nums []int, target int) int {
 	left, right := 0, len(nums)-1
 	for left <= right {
