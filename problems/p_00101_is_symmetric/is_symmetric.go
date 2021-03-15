@@ -25,3 +25,24 @@ func check(p *TreeNode, q *TreeNode) bool {
 	return l && r
 
 }
+
+
+
+func isSymmetric1(root *TreeNode) bool {
+	return isSame(root,root)
+}
+
+func isSame(left, right *TreeNode) bool {
+	if left == nil && right == nil {
+		return true
+	}
+	if left == nil || right == nil {
+		return false
+	}
+	if left.Val != right.Val {
+		return false
+	}
+	l := isSame(left.Left, right.Right)
+	r := isSame(left.Right, right.Left)
+	return l && r
+}
