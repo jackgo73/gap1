@@ -27,3 +27,28 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	p_follow.Next = p_follow.Next.Next
 	return head
 }
+
+
+
+func removeNthFromEnd1(head *ListNode, n int) *ListNode {
+
+	dummyheader := head
+	left, right := head, head
+
+	for n > 0 {
+		right = right.Next
+		n--
+	}
+
+	if right == nil {
+		return head.Next
+	}
+
+	for right.Next != nil {
+		right = right.Next
+		left = left.Next
+	}
+	left.Next = left.Next.Next
+
+	return dummyheader
+}
