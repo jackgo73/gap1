@@ -30,7 +30,11 @@ func test() bool {
 	fmt.Println("g")
 	fmt.Println(g)
 
-
+	h := []int{12, 13, 14}
+	fmt.Println("12,13,14")
+	fmt.Println(h[1:3])
+	fmt.Println(h[0:])
+	fmt.Println(h[:3])
 
 	return true
 }
