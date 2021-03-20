@@ -99,7 +99,7 @@ Memo
 | 95   | [不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii) | 67.6% | 中等 |                                                              |
 | 96   | [不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees) | 69.3% | 中等 |                                                              |
 | 97   | [交错字符串](https://leetcode-cn.com/problems/interleaving-string) | 45.9% | 困难 |                                                              |
-| 98   | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | 33.8% | 中等 |                                                              |
+| 98   | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | 33.8% | 中等 | func helper(root *TreeNode, lower, upper int) bool调整边界递归 |
 | 99   | [恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree) | 62.0% | 困难 |                                                              |
 |      | [相同的树](https://leetcode-cn.com/problems/same-tree)       | 60.4% | 简单 |                                                              |
 | 101  | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree) | 54.1% | 简单 |                                                              |
