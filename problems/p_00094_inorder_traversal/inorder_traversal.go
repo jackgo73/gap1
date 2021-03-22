@@ -25,3 +25,17 @@ func inorderTraversal__O__mj(root *TreeNode) (res []int) {
 	traversal(root)
 	return
 }
+
+func inorderTraversal(root *TreeNode) (res []int) {
+	var inorder func(*TreeNode)
+	inorder = func(root *TreeNode) {
+		if root == nil {
+			return
+		}
+		inorder(root.Left)
+		res = append(res, root.Val)
+		inorder(root.Right)
+	}
+	inorder(root)
+	return
+}

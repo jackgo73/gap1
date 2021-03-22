@@ -95,7 +95,7 @@ Memo
 | 91   | [解码方法](https://leetcode-cn.com/problems/decode-ways)     | 25.9% | 中等 |                                                              |
 | 92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii) | 53.9% | 中等 |                                                              |
 | 93   | [复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses) | 51.9% | 中等 |                                                              |
-| 94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | 75.0% | 中等 |                                                              |
+| 94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | 75.0% | 中等 | 递归，中序的取值放左右递归的中间                             |
 | 95   | [不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii) | 67.6% | 中等 |                                                              |
 | 96   | [不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees) | 69.3% | 中等 |                                                              |
 | 97   | [交错字符串](https://leetcode-cn.com/problems/interleaving-string) | 45.9% | 困难 |                                                              |
