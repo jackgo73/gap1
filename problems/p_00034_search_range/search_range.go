@@ -1,8 +1,10 @@
 package p_00034_search_range
 
+import "sort"
+
 func searchRange(nums []int, target int) []int {
 	left := left_bound(nums, target)
-	right := right_bound(nums , target)
+	right := right_bound(nums, target)
 	return []int{left, right}
 }
 
@@ -56,4 +58,13 @@ func right_bound(nums []int, target int) int {
 		return -1
 	}
 	return right
+}
+
+func searchRange1(nums []int, target int) []int {
+	leftmost := sort.SearchInts(nums, target)
+	if leftmost == len(nums) || nums[leftmost] != target {
+		return []int{-1, -1}
+	}
+	rightmost := sort.SearchInts(nums, target+1) - 1
+	return []int{leftmost, rightmost}
 }

@@ -35,7 +35,7 @@ Memo
 | 31   | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | 36.6% | 中等 |                                                              |
 | 32   | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses) | 34.7% | 困难 |                                                              |
 | 33   | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | 40.9% | 中等 |                                                              |
-| 34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 42.3% | 中等 |                                                              |
+| 34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 42.3% | 中等 | 用二分查一个，在用二分查target+1的位置减一                   |
 | 35   | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position) | 47.0% | 简单 |                                                              |
 | 36   | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku)  | 62.2% | 中等 |                                                              |
 | 37   | [解数独](https://leetcode-cn.com/problems/sudoku-solver)     | 67.1% | 困难 |                                                              |
