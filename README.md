@@ -54,7 +54,7 @@ Memo
 | 50   | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n)         | 37.4% | 中等 |                                                              |
 | 51   | [N 皇后](https://leetcode-cn.com/problems/n-queens)          | 73.9% | 困难 |                                                              |
 | 52   | [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii)     | 82.2% | 困难 |                                                              |
-| 53   | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray) | 53.6% | 简单 |                                                              |
+| 53   | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray) | 53.6% | 简单 | sum如果为负则置为当前数字，连续累加即可                      |
 | 54   | [螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix)   | 46.3% | 中等 |                                                              |
 | 55   | [跳跃游戏](https://leetcode-cn.com/problems/jump-game)       | 41.8% | 中等 |                                                              |
 | 56   | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | 44.8% | 中等 |                                                              |
@@ -74,7 +74,7 @@ Memo
 | 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)   | 51.6% | 简单 |                                                              |
 | 71   | [简化路径](https://leetcode-cn.com/problems/simplify-path)   | 41.7% | 中等 |                                                              |
 | 72   | [编辑距离](https://leetcode-cn.com/problems/edit-distance)   | 60.6% | 困难 |                                                              |
-| 73   | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes) | 56.1% | 中等 |                                                              |
+| 73   | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes) | 56.1% | 中等 | 行列两个数组记录，a[i]\|b[i]确定是否为零，两编遍历           |
 | 74   | [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix) | 40.9% | 中等 |                                                              |
 | 75   | [颜色分类](https://leetcode-cn.com/problems/sort-colors)     | 57.8% | 中等 |                                                              |
 | 76   | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring) | 41.0% | 困难 |                                                              |
