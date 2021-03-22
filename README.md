@@ -76,7 +76,7 @@ Memo
 | 72   | [编辑距离](https://leetcode-cn.com/problems/edit-distance)   | 60.6% | 困难 |                                                              |
 | 73   | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes) | 56.1% | 中等 | 行列两个数组记录，a[i]\|b[i]确定是否为零，两编遍历           |
 | 74   | [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix) | 40.9% | 中等 |                                                              |
-| 75   | [颜色分类](https://leetcode-cn.com/problems/sort-colors)     | 57.8% | 中等 |                                                              |
+| 75   | [颜色分类](https://leetcode-cn.com/problems/sort-colors)     | 57.8% | 中等 | 简单                                                         |
 | 76   | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring) | 41.0% | 困难 |                                                              |
 | 77   | [组合](https://leetcode-cn.com/problems/combinations)        | 76.6% | 中等 |                                                              |
 | 78   | [子集](https://leetcode-cn.com/problems/subsets)             | 79.6% | 中等 |                                                              |
@@ -93,7 +93,7 @@ Memo
 | 89   | [格雷编码](https://leetcode-cn.com/problems/gray-code)       | 70.1% | 中等 |                                                              |
 | 90   | [子集 II](https://leetcode-cn.com/problems/subsets-ii)       | 61.9% | 中等 |                                                              |
 | 91   | [解码方法](https://leetcode-cn.com/problems/decode-ways)     | 25.9% | 中等 |                                                              |
-| 92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii) | 53.9% | 中等 |                                                              |
+| 92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii) | 53.9% | 中等 | 反转中间几个1、找到起始位置2、开始反转3、尾部补充            |
 | 93   | [复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses) | 51.9% | 中等 |                                                              |
 | 94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | 75.0% | 中等 | 递归，中序的取值放左右递归的中间                             |
 | 95   | [不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii) | 67.6% | 中等 |                                                              |
