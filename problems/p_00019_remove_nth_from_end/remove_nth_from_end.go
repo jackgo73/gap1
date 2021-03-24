@@ -52,3 +52,23 @@ func removeNthFromEnd1(head *ListNode, n int) *ListNode {
 
 	return dummyheader
 }
+
+func removeNthFromEnd2(head *ListNode, n int) *ListNode {
+	l, r := head, head
+
+	for ; n > 0; n-- {
+		r = r.Next
+	}
+
+	if r == nil {
+		return head.Next
+	}
+
+	for r.Next != nil {
+		r = r.Next
+		l = l.Next
+	}
+	l.Next = l.Next.Next
+
+	return head
+}

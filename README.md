@@ -20,7 +20,7 @@ Memo
 | 16   | [最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest) | 45.9% | 中等 |                                                              |
 | 17   | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number) | 56.2% | 中等 |                                                              |
 | 18   | [四数之和](https://leetcode-cn.com/problems/4sum)            | 40.0% | 中等 |                                                              |
-| 19   | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) | 41.3% | 中等 |                                                              |
+| 19   | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) | 41.3% | 中等 | 双指针需要注意的是边界处理，r先走然后为空的情况特殊处理      |
 | 20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | 43.8% | 简单 |                                                              |
 | 21   | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | 65.6% | 简单 |                                                              |
 | 22   | [括号生成](https://leetcode-cn.com/problems/generate-parentheses) | 77.0% | 中等 |                                                              |
