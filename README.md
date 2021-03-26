@@ -161,7 +161,7 @@ Memo
 | 157  | [用 Read4 读取 N 个字符](https://leetcode-cn.com/problems/read-n-characters-given-read4) | 52.6% | 简单 |                                                              |
 | 158  | [用 Read4 读取 N 个字符 II](https://leetcode-cn.com/problems/read-n-characters-given-read4-ii-call-multiple-times) | 57.2% | 困难 |                                                              |
 | 159  | [至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters) | 53.0% | 中等 |                                                              |
-| 160  | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) | 57.9% | 简单 |                                                              |
+| 160  | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) | 57.9% | 简单 | 哈希表常规解法，奇怪的解法类似环型链表，双指针前进如果到头了就用另一个head继续前进直到相等为止 |
 | 161  | [相隔为 1 的编辑距离](https://leetcode-cn.com/problems/one-edit-distance) | 33.2% | 中等 |                                                              |
 | 162  | [寻找峰值](https://leetcode-cn.com/problems/find-peak-element) | 48.7% | 中等 |                                                              |
 | 163  | [缺失的区间](https://leetcode-cn.com/problems/missing-ranges) | 29.5% | 简单 |                                                              |
