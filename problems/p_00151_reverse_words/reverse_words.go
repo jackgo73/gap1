@@ -2,7 +2,7 @@ package p_00151_reverse_words
 
 import "strings"
 
-func reverseWords(s string) string {
+func reverseWords1(s string) string {
 	if s == "" {
 		return ""
 	}
@@ -37,4 +37,17 @@ func PreProcess(s string) string {
 		}
 	}
 	return string(res)
+}
+
+func reverseWords(s string) string {
+	arr := strings.Split(s, " ")
+	res := []string{}
+	for i := len(arr) -1; i >= 0; i--  {
+		str := arr[i]
+		if len(str) != 0 {
+			res = append(res, str)
+		}
+	}
+	r := strings.Join(res, " ")
+	return r
 }

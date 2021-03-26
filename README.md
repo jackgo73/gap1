@@ -83,7 +83,7 @@ Memo
 | 79   | [单词搜索](https://leetcode-cn.com/problems/word-search)     | 44.3% | 中等 |                                                              |
 | 80   | [删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii) | 57.4% | 中等 |                                                              |
 | 81   | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii) | 37.2% | 中等 |                                                              |
-| 82   | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii) | 50.4% | 中等 |                                                              |
+| 82   | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii) | 50.4% | 中等 | 单指针即可，判断next和next.next，如果相同就让next=next.next循环到next!=val即可。 |
 | 83   | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) | 52.2% | 简单 |                                                              |
 | 84   | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | 42.9% | 困难 |                                                              |
 | 85   | [最大矩形](https://leetcode-cn.com/problems/maximal-rectangle) | 51.7% | 困难 |                                                              |
