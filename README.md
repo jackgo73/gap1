@@ -106,7 +106,7 @@ Memo
 | 102  | [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) | 64.2% | 中等 |                                                              |
 | 103  | [二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal) | 57.1% | 中等 |                                                              |
 | 104  | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | 75.9% | 简单 |                                                              |
-| 105  | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 69.4% | 中等 |                                                              |
+| 105  | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 69.4% | 中等 | 用前序的第一个去中序里面找，中序分成左、根、右，在用中序左大小、右大小分割前序，传到递归函数里面，但前函数用前序[0]构造自己即可。 |
 | 106  | [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | 71.5% | 中等 |                                                              |
 | 107  | [二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii) | 68.3% | 中等 |                                                              |
 | 108  | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree) | 74.9% | 简单 |                                                              |
@@ -207,7 +207,7 @@ Memo
 | 203  | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements) | 47.3% | 简单 |                                                              |
 | 204  | [计数质数](https://leetcode-cn.com/problems/count-primes)    | 38.5% | 简单 |                                                              |
 | 205  | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings) | 49.9% | 简单 |                                                              |
-| 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | 71.5% | 简单 |                                                              |
+| 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | 71.5% | 简单 | 调整顺序前记录下next即可，注意头.next需要单独处理            |
 | 207  | [课程表](https://leetcode-cn.com/problems/course-schedule)   | 54.9% | 中等 |                                                              |
 | 208  | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree) | 70.0% | 中等 |                                                              |
 | 209  | [长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum) | 45.3% | 中等 |                                                              |
