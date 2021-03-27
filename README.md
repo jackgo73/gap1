@@ -62,7 +62,7 @@ Memo
 | 58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) | 34.3% | 简单 |                                                              |
 | 59   | [螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii) | 80.2% | 中等 |                                                              |
 | 60   | [排列序列](https://leetcode-cn.com/problems/permutation-sequence) | 52.0% | 困难 |                                                              |
-| 61   | [旋转链表](https://leetcode-cn.com/problems/rotate-list)     | 40.6% | 中等 | 头尾相连；找到新头和新尾；新尾.Next=nil                      |
+| 61   | [旋转链表](https://leetcode-cn.com/problems/rotate-list)     | 40.6% | 中等 | 倒数第k个就是目标节点；收尾相接；注意k对len取余避免循环！    |
 | 62   | [不同路径](https://leetcode-cn.com/problems/unique-paths)    | 64.5% | 中等 |                                                              |
 | 63   | [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii) | 37.8% | 中等 |                                                              |
 | 64   | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum) | 68.2% | 中等 | dp转移方程f(x,y) = min(f(x-1,y),f(x,y-1)) + g(x,y) 注意先构造第一行再构造第一列，然后按一行一行构造 |
