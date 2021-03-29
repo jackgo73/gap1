@@ -244,3 +244,5 @@ Memo
 | 240  | [搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii) | 44.6% | 中等 |                                                              |
 | 241  | [为运算表达式设计优先级](https://leetcode-cn.com/problems/different-ways-to-add-parentheses) | 73.5% | 中等 |                                                              |
 | 242  | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram) | 63.7% | 简单 |                                                              |
+| 456  | [132 模式](https://leetcode-cn.com/problems/132-pattern/)    |       | 中等 | n^2：从第二个数开始定3遍历3右侧找合适的值；左侧用3和1的小者更新1 |
+
